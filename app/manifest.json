@@ -1,0 +1,19 @@
+{
+  "frame": {
+    "version": "1",
+    "name": "PENGU Watch",
+    "homeUrl": "https://pengu-watch.vercel.app",
+    "iconUrl": "https://pengu-watch.vercel.app/icon.png",
+    "splashImageUrl": "https://pengu-watch.vercel.app/splash.png",
+    "splashBackgroundColor": "#0f172a",
+    "subtitle": "Never miss a big PENGU trade again",
+    "description": "Get instant alerts for significant $PENGU token trades on major centralized exchanges. Set custom triggers and stay ahead of the market.",
+    "primaryCategory": "finance",
+    "tags": ["pengu", "trading", "alerts", "defi", "crypto"],
+    "heroImageUrl": "https://pengu-watch.vercel.app/hero.png",
+    "tagline": "Get instant alerts",
+    "ogTitle": "PENGU Watch - Never miss a big PENGU trade again",
+    "ogDescription": "Real-time alerts for significant $PENGU token trades across major exchanges",
+    "ogImageUrl": "https://pengu-watch.vercel.app/og.png"
+  }
+}
