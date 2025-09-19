@@ -8,19 +8,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: 'hsl(210, 30%, 8%)',
-        foreground: 'hsl(210, 10%, 95%)',
-        muted: 'hsl(210, 10%, 70%)',
-        accent: 'hsl(135, 70%, 50%)',
-        primary: 'hsl(210, 70%, 50%)',
-        surface: 'hsl(210, 30%, 12%)',
-        danger: 'hsl(0, 70%, 50%)',
-        warning: 'hsl(45, 90%, 60%)',
+        background: 'hsl(var(--background))',
+        foreground: 'hsl(var(--foreground))',
+        muted: 'hsl(var(--muted))',
+        accent: 'hsl(var(--accent))',
+        primary: 'hsl(var(--primary))',
+        surface: 'hsl(var(--surface))',
+        danger: 'hsl(var(--danger))',
+        warning: 'hsl(var(--warning))',
+        border: 'hsl(var(--border))',
       },
       borderRadius: {
-        lg: '12px',
-        md: '8px',
-        sm: '4px',
+        lg: 'var(--radius)',
+        md: 'calc(var(--radius) - 2px)',
+        sm: 'calc(var(--radius) - 4px)',
       },
       spacing: {
         lg: '24px',
@@ -28,8 +29,8 @@ module.exports = {
         sm: '8px',
       },
       boxShadow: {
-        card: '0 4px 12px hsla(210, 30%, 20%, 0.3)',
-        focus: '0 0 0 3px hsla(135, 70%, 50%, 0.6)',
+        card: '0 4px 12px hsla(var(--background), 0.3)',
+        focus: '0 0 0 3px hsla(var(--accent), 0.6)',
       },
       animation: {
         'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
