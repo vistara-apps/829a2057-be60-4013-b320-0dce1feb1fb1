@@ -2,11 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background: 210 30% 8%;
+  --foreground: 210 10% 95%;
+  --muted: 210 10% 70%;
+  --accent: 135 70% 50%;
+  --primary: 210 70% 50%;
+  --surface: 210 30% 12%;
+  --danger: 0 70% 50%;
+  --warning: 45 90% 60%;
+  --border: 210 30% 20%;
+  --radius: 12px;
+}
+
 @layer base {
   * {
-    @apply border-gray-700;
+    @apply border-border;
   }
-  
+
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
