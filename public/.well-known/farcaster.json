@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "PENGU Watch",
+    "subtitle": "Built with Zara",
+    "description": "PENGU Watch is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://829a2057be604013b3200dce1feb1fb1-tyjo.vercel.app",
+    "splashImageUrl": "https://829a2057be604013b3200dce1feb1fb1-tyjo.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://829a2057be604013b3200dce1feb1fb1-tyjo.vercel.app/image.png",
+    "tagline": "PENGU Watch",
+    "screenshotUrls": [
+      "https://829a2057be604013b3200dce1feb1fb1-tyjo.vercel.app/screenshot.png",
+      "https://829a2057be604013b3200dce1feb1fb1-tyjo.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://829a2057be604013b3200dce1feb1fb1-tyjo.vercel.app/api/webhook"
+  }
+}

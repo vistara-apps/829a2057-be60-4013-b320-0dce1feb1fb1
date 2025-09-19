@@ -1,0 +1,14 @@
+{
+  "name": "PENGU Watch",
+  "description": "PENGU Watch is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://829a2057-be60-4013-b320-0dce1feb1fb1.vercel.app",
+  "properties": {
+    "app": {
+      "name": "PENGU Watch",
+      "description": "PENGU Watch is a Base Mini App built with Zara.",
+      "url": "https://829a2057-be60-4013-b320-0dce1feb1fb1.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}
